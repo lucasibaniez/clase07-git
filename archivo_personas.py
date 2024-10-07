@@ -1,6 +1,9 @@
+"""
+    script para tratar personas
+"""
 encabezado = None
 
-todas_las_personas = []
+personas = []
 
 def todo_es_un_numerico(valor):
     return valor.isnumeric()
@@ -16,6 +19,7 @@ with open("personas.csv", "r", encoding='utf-8') as archivo:
         persona_dict = {titulo: persona[index] for index, titulo in enumerate(encabezado)}
 
         if todo_es_un_numerico(persona_dict["dni"]):
-            todas_las_personas.append(persona_dict)
+            personas.append(persona_dict)
 
-print("Lista de personas:", todas_las_personas)
+print("Lista de personas:")
+print(personas)
