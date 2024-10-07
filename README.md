@@ -6,3 +6,10 @@ _estamos cambiando el contenido del readme_
 ### archivos
 
 * archivo_persona.py: Ejemplo de tratamiento de archivos usando lista de diccionarios
+* asdasd
+* asd
+* asd
+* asd
+* as
+* d
+* d
